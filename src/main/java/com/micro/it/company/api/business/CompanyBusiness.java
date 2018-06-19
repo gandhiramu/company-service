@@ -9,12 +9,12 @@ import com.micro.it.company.api.Company;
 
 @Service
 public class CompanyBusiness {
-	private List<Company> companys = new ArrayList<>();
+	private List<Company> companyList = new ArrayList<>();
 
-	public List<Company> getCompanys() {
-		companys.add(new Company("1", "Google"));
-		companys.add(new Company("2", "Facebook"));
-		return companys;
+	public List<Company> getCompanies() {
+		companyList.add(new Company("1", "Google"));
+		companyList.add(new Company("2", "Facebook"));
+		return companyList;
 	}
 
 }

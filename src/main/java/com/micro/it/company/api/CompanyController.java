@@ -14,9 +14,9 @@ public class CompanyController {
 	@Autowired
 	private CompanyBusiness companyBusiness;
 
-	@RequestMapping("/companys")
+	@RequestMapping("/companies")
 	public List<Company> getCompanys() {
-		return companyBusiness.getCompanys();
+		return companyBusiness.getCompanies();
 	}
 
 }
